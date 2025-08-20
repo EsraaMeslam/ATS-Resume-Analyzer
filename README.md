@@ -14,10 +14,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
 </p>
 
-<!-- Demo Image -->
-<p align="center">
-  <img src="https://i.imgur.com/your-demo-image.png" alt="ATS Analyzer Demo" width="600">
-</p>
+
 
 <p><strong>ATS Resume Analyzer</strong> is a smart tool to optimize resumes for Applicant Tracking Systems (ATS). Analyze resumes against job descriptions, get missing keyword insights, strengths & weaknesses, and export detailed PDF/Excel reports. Also includes an interactive AI chat to answer questions about your resumes!</p>
 
@@ -80,7 +77,7 @@ venv\Scripts\activate     # Windows</code></pre>
 
 <h2>🔗 Links</h2>
 <ul>
-  <li>🌐 <a href="https://smart-ats-analyzer.streamlit.app/" target="_blank">Live App</a></li>
+  <li>🌐 <a href="https://smart-ats-analyzer.streamlit.app/" target="_blank">The Streamlit App</a></li>
   <li><a href="https://www.linkedin.com/in/esraa-meslam-873a20241" target="_blank">LinkedIn</a></li>
   <li><a href="https://github.com/EsraaMeslam" target="_blank">GitHub</a></li>
 </ul>
