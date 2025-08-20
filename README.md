@@ -1,113 +1,98 @@
-<h1>📄 Smart ATS Resume Analyzer</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ATS Resume Analyzer</title>
+</head>
+<body>
+<h1>ATS Resume Analyzer 🚀</h1>
 
+<!-- Badges -->
 <p>
-  Optimize your resume for <strong>Applicant Tracking Systems (ATS)</strong> with AI-powered analysis.
-  The Smart ATS Analyzer evaluates resumes against job descriptions, highlights missing keywords,
-  identifies strengths and weaknesses, and provides actionable recommendations to improve your chances of landing interviews.
+  <img src="https://img.shields.io/badge/Python-3.11-blue" alt="Python">
+  <img src="https://img.shields.io/badge/Streamlit-1.24-orange" alt="Streamlit">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
 </p>
 
-<p>
-  🚀 <strong>Live Demo:</strong>
-  <a href="https://smart-ats-analyzer.streamlit.app/" target="_blank" rel="noopener noreferrer">
-    https://smart-ats-analyzer.streamlit.app/
-  </a>
+<!-- Demo Image -->
+<p align="center">
+  <img src="https://i.imgur.com/your-demo-image.png" alt="ATS Analyzer Demo" width="600">
 </p>
 
-<hr/>
+<p><strong>ATS Resume Analyzer</strong> is a smart tool to optimize resumes for Applicant Tracking Systems (ATS). Analyze resumes against job descriptions, get missing keyword insights, strengths & weaknesses, and export detailed PDF/Excel reports. Also includes an interactive AI chat to answer questions about your resumes!</p>
 
-<h2>✨ Features</h2>
+<h2>🌟 Features</h2>
 <ul>
-  <li>📑 <strong>Multi-Resume Upload</strong> – Upload multiple PDF resumes for side-by-side analysis.</li>
-  <li>🤖 <strong>AI-Powered ATS Scoring</strong> – Uses Google Gemini to compute ATS Score, Match %, Readability, and Skill Alignment.</li>
-  <li>🔍 <strong>Deep Insights</strong> – Missing keywords, strengths, weaknesses, and tailored recommendations.</li>
-  <li>📊 <strong>Visual Analytics</strong> – Interactive charts for ATS scores and match percentages per resume.</li>
-  <li>📥 <strong>Export Reports</strong> – Download professional PDF and detailed Excel summaries.</li>
-  <li>💬 <strong>Interactive Chat Assistant</strong> – Ask the bot to compare resumes, explain gaps, and suggest improvements.</li>
+  <li><strong>ATS Scoring:</strong> Evaluate resume-job fit.</li>
+  <li><strong>Keyword Analysis:</strong> Identify missing skills/keywords.</li>
+  <li><strong>Strengths & Weaknesses:</strong> Practical improvement suggestions.</li>
+  <li><strong>Reports:</strong> Download professional PDF & Excel reports.</li>
+  <li><strong>Charts:</strong> Visualize ATS scores, match percentages, and readability.</li>
+  <li><strong>Interactive Chat:</strong> Ask questions and get AI-powered resume insights.</li>
+  <li><strong>Multi-Resume Comparison:</strong> Rank resumes by ATS score.</li>
 </ul>
 
-<h2>🛠️ Tech Stack</h2>
+<h2>🛠️ Technology Stack</h2>
 <ul>
-  <li><strong>Frontend/UI:</strong> Streamlit</li>
-  <li><strong>AI Model:</strong> Google Gemini API</li>
-  <li><strong>Backend Processing:</strong> Python (PyPDF2, re, json)</li>
-  <li><strong>Data & Charts:</strong> Pandas, Matplotlib</li>
-  <li><strong>Reporting:</strong> FPDF, Excel (openpyxl)</li>
+  <li>Python 3.11+</li>
+  <li>Streamlit</li>
+  <li>PyPDF2 & FPDF for PDF handling</li>
+  <li>Pandas & Matplotlib for data analysis & visualization</li>
+  <li>Google Gemini API (via google.generativeai)</li>
+  <li>python-dotenv for environment management</li>
 </ul>
 
-<h2>📥 Installation & Setup</h2>
+<h2>⚡ Installation</h2>
 <ol>
-  <li>
-    <p><strong>Clone the repository:</strong></p>
-    <pre><code>git clone https://github.com/your-username/smart-ats-analyzer.git
-cd smart-ats-analyzer
-</code></pre>
+  <li>Clone the repository:
+    <pre><code>git clone https://github.com/EsraaMeslam/your-repo-name.git
+cd your-repo-name</code></pre>
   </li>
-  <li>
-    <p><strong>Create and activate a virtual environment:</strong></p>
+  <li>Create a virtual environment (recommended):
     <pre><code>python -m venv venv
-# Linux/Mac
-source venv/bin/activate
-# Windows
-venv\Scripts\activate
-</code></pre>
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows</code></pre>
   </li>
-  <li>
-    <p><strong>Install dependencies:</strong></p>
-    <pre><code>pip install -r requirements.txt
-</code></pre>
+  <li>Install dependencies:
+    <pre><code>pip install -r requirements.txt</code></pre>
   </li>
-  <li>
-    <p><strong>Set environment variables:</strong></p>
-    <p>Create a <code>.env</code> file in the project root and add your Gemini API key:</p>
-    <pre><code>GEMINI_API_KEY=your_api_key_here
-</code></pre>
-  </li>
-  <li>
-    <p><strong>Run the app:</strong></p>
-    <pre><code>streamlit run app.py
-</code></pre>
+  <li>Add your Gemini API key in a <code>.env</code> file:
+    <pre><code>GEMINI_API_KEY=your_gemini_api_key_here</code></pre>
   </li>
 </ol>
 
-<h2>📊 How It Works</h2>
+<h2>🚀 Usage</h2>
 <ol>
-  <li>Upload one or more resumes in <strong>PDF</strong> format.</li>
-  <li>Paste the target job description.</li>
-  <li>The AI analyzes and scores each resume.</li>
-  <li>Review insights: missing keywords, strengths, weaknesses, readability, and recommendations.</li>
-  <li>Export a <strong>PDF report</strong> and an <strong>Excel</strong> file (summary + details).</li>
-  <li>Use the <strong>Interactive Chat</strong> to ask questions or compare resumes.</li>
+  <li>Run the Streamlit app:
+    <pre><code>streamlit run app.py</code></pre>
+  </li>
+  <li>Upload one or more PDF resumes.</li>
+  <li>Paste the job description.</li>
+  <li>Click <strong>🚀 ANALYZE RESUME(S)</strong> to view ATS scores, charts, and recommendations.</li>
+  <li>Use the <strong>Interactive Chat</strong> tab for personalized advice or resume comparison.</li>
 </ol>
 
-<h2>📈 Example Use Cases</h2>
+<h2>📄 Reports</h2>
 <ul>
-  <li>Job seekers optimizing resumes for ATS compliance.</li>
-  <li>Career coaches providing data-driven feedback.</li>
-  <li>Recruiters assessing alignment with job descriptions.</li>
+  <li>Professional <strong>PDF reports</strong> with ATS scores, missing keywords, strengths, weaknesses, and recommendations.</li>
+  <li>Comprehensive <strong>Excel reports</strong> with summary and detailed metrics per resume.</li>
 </ul>
 
-<h2>🧭 Recommended Questions for the Chat Assistant</h2>
+<h2>🔗 Links</h2>
 <ul>
-  <li>“Which uploaded resume has the highest ATS score and why?”</li>
-  <li>“What general recommendations can improve all uploaded resumes?”</li>
-  <li>“What keywords are missing in <em>Resume_B.pdf</em> compared to the job description?”</li>
+  <li>🌐 <a href="https://smart-ats-analyzer.streamlit.app/" target="_blank">Live App</a></li>
+  <li><a href="https://www.linkedin.com/in/esraa-meslam-873a20241" target="_blank">LinkedIn</a></li>
+  <li><a href="https://github.com/EsraaMeslam" target="_blank">GitHub</a></li>
 </ul>
 
-<h2>👤 Author</h2>
-<p>
-  <strong>Esraa Meslam</strong><br/>
-  <a href="https://www.linkedin.com/in/esraa-meslam-873a20241" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
-  <a href="https://github.com/EsraaMeslam" target="_blank" rel="noopener noreferrer">GitHub</a>
-</p>
+<h2>💡 Notes</h2>
+<ul>
+  <li>Ensure a valid <strong>GEMINI_API_KEY</strong> in your <code>.env</code> file.</li>
+  <li>Supports PDF resumes only.</li>
+</ul>
 
-<h2>⭐ Contribute</h2>
-<p>
-  Contributions, issues, and feature requests are welcome. Please open an issue or a pull request.
-  If you find this project helpful, consider giving it a ⭐ on GitHub.
-</p>
+<h2>📌 License</h2>
+<p>MIT License © 2025 Esraa Meslam</p>
 
-<hr/>
-
-<p>
-  <em>Tip:</em> Add screenshots or a short GIF preview of the Streamlit app to make the README more engaging for visitors.
-</p>
+</body>
+</html>
