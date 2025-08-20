@@ -77,7 +77,7 @@ venv\Scripts\activate     # Windows</code></pre>
 
 <h2>🔗 Links</h2>
 <ul>
-  <li>🌐 <a href="https://smart-ats-analyzer.streamlit.app/" target="_blank">The Streamlit App</a></li>
+  <li><a href="https://smart-ats-analyzer.streamlit.app/" target="_blank">The Streamlit App</a></li>
   <li><a href="https://www.linkedin.com/in/esraa-meslam-873a20241" target="_blank">LinkedIn</a></li>
   <li><a href="https://github.com/EsraaMeslam" target="_blank">GitHub</a></li>
 </ul>
